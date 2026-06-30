@@ -46,15 +46,15 @@
        
     </nav>
     
-    <header class="bg-red-200 flex ">
+    <header class="  bg-red-200 flex ">
         <!-- <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="size-7 mt-2 bi bi-list" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
 </svg>
   <p class="mt-2">دسته بندی کالاها</p> -->
-  <div class="relative inline-block group">
+  <div class="flex relative inline-block group">
 
     <!-- دکمه دسته‌بندی -->
-    <div class="flex items-center gap-2 cursor-pointer  text-black px-4 py-3 rounded">
+    <div class="flex items-center gap-2 cursor-pointer  text-black  rounded">
         <svg xmlns="http://www.w3.org/2000/svg"
              fill="currentColor"
              class="w-7 h-7"
@@ -67,8 +67,9 @@
     </div>
 
     <!-- منو -->
-    <div class="absolute right-0 top-full  hidden group-hover:flex
-                w-[700px] bg-white shadow-xl border rounded-lg z-50">
+    <div class="absolute right-0 top-full  hidden group-hover:flex 
+   xl:w-[700px] lg:w-[700px] md:w-[550px] sm:w-[550px] w-[450px]
+    bg-white shadow-xl border rounded-lg z-50">
 
         <!-- منوی اصلی -->
         <div class="w-52  bg-gray-50">
@@ -96,8 +97,8 @@
         </div>
 
         <!-- زیرمنو -->
-        <div class="flex-1 p-6">
-            <h3 class="font-bold text-lg mb-4">
+        <div class="flex-1 p-6 ">
+            <h3 class="font-bold text-lg mb-4 ">
                 دسته موبایل
             </h3>
 
@@ -170,7 +171,6 @@
     </header>
   
     <main>
-      
 
 <div id="default-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
@@ -223,11 +223,49 @@
         </span>
     </button>
 </div>
+ 
+  <div class="bg-red-200">
+      <p class="text-center font-bold text-3xl">پر فروش ترین کالاها</p>
 
+      <ul class="flex">
+        <li class=" bg-blue-200 mr-10">
+         <div class="bg-red-500 flex">
+        <img class="w-32" src="../digikala/images/4f9e4d4972d7878c553096e7456e2ee1d1da4bed_1754245493.jpg" alt="">
+         <p class="font-bold text-3xl mt-10">1</p>
+     <div class="w-56">
+  <p class="line-clamp-2 text-sm leading-6  mt-8">
+    فلویید ضد آفتاب بی رنگ با SPF 50 مناسب پوست چرب و مختلط و دارای فرمولاسیون سبک و جذب سریع و مقاوم در برابر آب.
+  </p>
+  <hr class="ml-7 mr-3 mt-6">
+</div>
+    </div>
+        </li>
+           <li class=" bg-blue-200 mr-10">
+         <div class="bg-red-500 flex">
+        <img class="w-32" src="../digikala/images/4f9e4d4972d7878c553096e7456e2ee1d1da4bed_1754245493.jpg" alt="">
+         <p class="font-bold text-3xl mt-10">1</p>
+     <div class="w-56">
+  <p class="line-clamp-2 text-sm leading-6  mt-8">
+    فلویید ضد آفتاب بی رنگ با SPF 50 مناسب پوست چرب و مختلط و دارای فرمولاسیون سبک و جذب سریع و مقاوم در برابر آب.
+  </p>
+  <hr class="ml-7 mr-3 mt-6">
+</div>
+    </div>
+        </li>
+         <li class=" bg-blue-200 mr-10">
+            <p>jtdsezsdx</p>
+        </li>
+        <li class=" bg-blue-200 mr-10">
+            <p>455</p>
+        </li>
+       
+    </ul>
+  </div>
+ 
     </main>
 
-<footer class="fixed bottom-0 left-0 w-full h-auto bg-blue-500">
-        <div class="bg-red-500 flex ml-2">
+<footer class=" bottom-0 left-0 w-full h-auto bg-blue-400">
+        <div class=" flex ml-2">
           <img src="../digikala/images/logo.JPG" alt="">
           <button class="border-2 border-black flex pt-2 xl:mr-auto">
             بازگشت به بالا
@@ -236,13 +274,13 @@
 </svg>
           </button>
         </div>
-        <div class="bg-green-500 w-auto flex">
+        <div class=" w-auto flex">
           <p>تلفن پشتیبانی:1548854</p>
           <div class="h-4 w-1 opacity-25 bg-black mt-1 mr-4"></div>
-          <p class="mr-5">7روز هفته پاسخگو شما هستیم </p>
+          <p class="mr-5 ">7روز هفته پاسخگو شما هستیم </p>
         </div>
-      <div class="bg-orange-500 py-6 px-4">
-    <div class="flex flex-wrap justify-center md:justify-between gap-8 text-center text-white">
+      <div class=" py-6 px-4">
+    <div class="flex flex-wrap justify-center md:justify-between gap-8 text-center text-black">
 
         <div class="flex flex-col items-center">
             <img class="w-14 h-14 mb-2" src="../digikala/images/box-express.JPG" alt="">
